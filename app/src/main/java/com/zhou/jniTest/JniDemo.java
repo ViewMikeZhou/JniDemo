@@ -6,7 +6,7 @@ package com.zhou.jniTest;
 
 public class JniDemo {
     static {
-        System.loadLibrary("jni_demo");
+        System.loadLibrary("jni_test");
     }
     public native String getFromC();
 

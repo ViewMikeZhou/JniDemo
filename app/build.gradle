@@ -14,7 +14,26 @@ android {
             moduleName "jni_demo" //编译生成so库的名字，注意不要lib，和.so加进来  ,而且要和上面loadLibrary里面的参数一致
             abiFilters "armeabi","armeabi-v7a"//编译支持的平台
         }
+        externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }
+
+      /*  externalNativeBuild {
+            ndkBuild {
+                path 'src/main/jni/Android.mk'
+            }
+        }*/
+
     }
+
+    externalNativeBuild {
+        cmake {
+            path "CMakeLists.txt"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -23,6 +42,7 @@ android {
     }
 
 }
+
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])

@@ -1,0 +1,5 @@
+2017-09-18 17:45:42,455 WARN  [DefaultSoapUICore] Missing folder [C:\Users\Administrator\ext] for external libraries
+2017-09-18 17:45:43,412 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\Administrator\soapui-settings.xml]
+2017-09-18 17:45:44,204 INFO  [WorkspaceImpl] Loading workspace from [C:\Users\Administrator\intellij-soapui-workspace.xml]
+2017-09-18 17:45:54,868 INFO  [WorkspaceImpl] Saved workspace to [C:\Users\Administrator\intellij-soapui-workspace.xml]
+2017-09-18 17:45:54,874 INFO  [DefaultSoapUICore] Settings saved to [C:\Users\Administrator\soapui-settings.xml]
